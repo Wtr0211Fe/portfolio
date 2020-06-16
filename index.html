@@ -1,0 +1,140 @@
+<!DOCTYPE html　pubu>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320; initial-scale=1.0; maxmum-scale=2.0;">
+    <title>WATARU'S PORTFOLIO</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css"　media="screen and (max-width:1500px)">
+    <!--タブレット-->
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width:897px)">
+    <!--スマホ-->
+    <link rel="stylesheet" href="responsive2.css" media="screen and (max-width:480px)">
+</head>
+<body>
+    <div id="profile-wrapper">
+        <span>I'M WATARU IWAI. WELCOME TO PORTFOLIO.</span>
+    </div>
+    <header>
+         <!--ハンバーガー-->
+         <nav class="navbar">
+            <div class="hamburger">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a id="home" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a id="about" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a id="works" class="nav-link">WORKS</a></li>
+                <li class="nav-item"><a id="contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!--ハンバーガー終わり-->
+    </header>
+    <div class="main">
+        <!--ハンバーガー終わり-->
+        <div class="text-wrapper">
+           <h2>The biggest risk is not taking any risk.</h2>
+           <h2>The greatest successes come from</h2>
+           <h2>having the freedom to fail.</h2>
+        </div>
+        <div class="profile-img">
+            <img src="IMG_4052edited.jpg">
+            <img src="IMG_1808.jpg">
+        </div>
+     </div>
+    <section class="about">
+        <div class="intro">
+            <h2>ABOUT</h2>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>初めまして！岩井　渉です。</p>
+                    <p>現在は京都の大学に通っている大学生です。</p>
+                    <p>今年の2月からプログラミング学習を始めました。</p>
+                    <p>言語はHTML<i class="fab fa-html5"></i>　/　CSS<i class="fab fa-css3-alt"></i>　/　JavaScript<i class="fab fa-js-square"></i>で、主にJavaScriptを勉強中です。
+                    <p>目標は「デザインもできるエンジニアになる」こと</p>
+                    <p>趣味は映画鑑賞<i class="fas fa-film"></i></p>
+                    <p>将来は自分が大好きである、映画作品の公式サイトなどを作りたいと思っています。</p>
+                    <p>私の長所は”継続力”です。</p>
+                    <p>小学4年生から高校3年の夏までの約8年間、私は野球をしていました。そこで培った”継続力”は<br>これから始まるエンジニアとしてのキャリアに活かしていきたいと考えています。</p>
+                    <p>この強みを活かして今もこれからも日々努力していきます。</p>
+                    <p>よろしくお願いします。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!--Works-->
+    <section class="works">
+        <h2>WORKS</h2>
+        <div class="works-wrapper">
+            <div class="works-content-wrapper">
+                <div class="works-content">
+                    <img src="burger.png">
+                    <div class="mask">
+                        <div class="caption">J.S. BURGERS CAFE<br>サイト模写</div>
+                    </div>
+                </div>
+                <a class="modal-btn1">CLICK HERE!</a>
+            </div>
+
+            <div class="works-content-wrapper">
+                <div class="works-content">
+                    <img class="js-modal-open" src="portfolio.png">
+                    <div class="mask">
+                        <div class="caption">My Portfolio</div>
+                    </div>
+                </div>
+                <a class="modal-btn2">CLICK HERE!</a>
+            </div>
+        </div>
+       <!--モーダルで表示する部分-->
+       <div class="modal-bg1">
+          <div class="modal">
+               <img src="BURGER.iPhoneX.png">
+               <p class="modal-close1"><i class="far fa-times-circle"></i></p>
+           </div>
+       </div>
+       <!--モーダルで表示する部分-->
+           <div class="modal-bg2">
+              <div class="modal">
+                  <img class="js-modal-open" src="portfolio.iPhoneX.png"></a>
+                  <p class="modal-close2"><i class="far fa-times-circle"></i></p>
+              </div>
+           </div>
+
+    </section>
+    <!--contactモーダル-->
+    <div class="modal-bg3">
+        <div class="contact-modal">
+            <h3>CONTACT</h3>
+            <p class="modal-close3"><i class="fas fa-times"></i></p>
+            <div class="contact-content">
+                <label for="field1">NAME</label>
+                <input type="text" name="name" class="name">
+            </div>
+            <div class="contact-content">
+                <label for="field2">EMAIL</label>
+                <input type="text" name="email" class="email">
+            </div>
+            <div class="contact-content">
+                <label for="field3">SUBJECT</label>
+                <input type="text" class="submit">
+            </div>
+            <div class="contact-content">
+                <label for="field4">MESSAGE</label>
+                <input type="text" class="message">
+            </div>
+            <button>SEND</button>
+        </div>
+    </div>
+<footer>
+    <small>©︎ 2020 WATARU IWAI</small>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+</body>
